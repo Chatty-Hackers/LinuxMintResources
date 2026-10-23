@@ -1,0 +1,35 @@
+Reset software sources default settings
+Update crucial software
+Configure automatic updates
+
+User Management
+Ensure only authurzied users are on the machine
+Ensure all users have correct permisions
+Change bad passwords
+Expire changed passwords
+sudo passwd -e {user name}
+
+Login Defs
+edit /etc/login.defs
+password max age 60
+password min age 3
+min length 12
+
+ssh conf
+disable root login
+other changes
+
+Audit packages
+remove hacking tools
+remove media
+
+enable ufw
+default deny incoming
+default allow outgoing
+
+audit services
+purge ssh, apache, samba, ftp, or others
+
+use lynis and clamav
+
+
